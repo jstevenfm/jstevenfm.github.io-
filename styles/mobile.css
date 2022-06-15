@@ -159,8 +159,23 @@ a {
     right: 0px;
 }
 
-
-.avatar {
-    width: 125px;
-    height: 125px;
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentation__avatar {
+    width: 124px;
+    height: 124px;
+    margin-top: 63px;
+}
+.presentation__title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.presentation__phrase {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
 }
