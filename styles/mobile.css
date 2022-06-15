@@ -28,17 +28,18 @@ a {
     background-image: linear-gradient(160deg, #27336e 0%, #8478f8 100%);
 }
 .navbar {
-    border-bottom: 0.5px solid var(--white);
     padding: 16px;
-    transition: all 0.25s linear;
+    box-shadow: 0 0 1px var(--white);
 }
 .navbar__head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 .navbar__name {
     display: flex;
+    transition: all 0.25s linear;
 }
 .navbar__name--logo {
     width: 30px;
@@ -84,13 +85,21 @@ a {
 .navbar__toggle-button span:nth-child(3) {
     margin-left: 0;
 }
+#menu_on-off:checked ~ .navbar__name {
+    transition: all 0.25s linear;
+    transform: translate(-260px, 0);
+    -webkit-transform: translate(-260px, 0);
+    -moz-transform: translate(-260px, 0);
+    -ms-transform: translate(-260px, 0);
+    -o-transform: translate(-260px, 0);
+}
 #menu_on-off:checked + .navbar__toggle-button {
     transition: all 0.25s linear;
-    transform: translate(-230px, 0);
-    -webkit-transform: translate(-230px, 0);
-    -moz-transform: translate(-230px, 0);
-    -ms-transform: translate(-230px, 0);
-    -o-transform: translate(-230px, 0);
+    transform: translate(-260px, 0);
+    -webkit-transform: translate(-260px, 0);
+    -moz-transform: translate(-260px, 0);
+    -ms-transform: translate(-260px, 0);
+    -o-transform: translate(-260px, 0);
     -webkit-transition: all 0.25s linear;
     -moz-transition: all 0.25s linear;
     -ms-transition: all 0.25s linear;
@@ -121,14 +130,6 @@ a {
     visibility: hidden;
 }
 
-#menu_on-off:checked ~ .navbar {
-    transition: all 0.25s linear;
-    transform: translate(-230px, 0);
-    -webkit-transform: translate(-230px, 0);
-    -moz-transform: translate(-230px, 0);
-    -ms-transform: translate(-230px, 0);
-    -o-transform: translate(-230px, 0);
-}
 
 .avatar {
     width: 125px;
