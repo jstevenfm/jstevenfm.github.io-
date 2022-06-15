@@ -224,7 +224,7 @@ a {
 }
 
 .scroll__container {
-    margin-top: 12px;
+    margin-top: 0.6rem;
     padding: 1.2rem 0.6rem;
     border: 3px solid var(--white);
     border-radius: 20px;
