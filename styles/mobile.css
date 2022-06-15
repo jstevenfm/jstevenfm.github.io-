@@ -129,6 +129,35 @@ a {
     top: calc(100% / -1.5);
     visibility: hidden;
 }
+.navbar__menu {
+    background-color: var(--blue);
+    width: 260px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -260px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+    box-shadow: 0 0 2px var(--white);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+}
+
+.navbar__menu--list-item {
+    padding: 28px 36px 0;
+}
+
+#menu_on-off:checked ~ .navbar__menu {
+    right: 0px;
+}
 
 
 .avatar {
