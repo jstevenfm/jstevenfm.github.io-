@@ -35,7 +35,7 @@ a {
     background-color: var(--blue);
     /* background-image: linear-gradient(160deg, #27336e 0%, #8478f8 100%); */
     padding: 16px;
-    box-shadow: 0 0 1px var(--white);
+    box-shadow: 0 0 .5rem rgba(249, 249, 255, 0.5);
     position: sticky;
     top: 0;
 }
@@ -165,7 +165,7 @@ a {
     -moz-border-radius: 1.2rem;
     -ms-border-radius: 1.2rem;
     -o-border-radius: 1.2rem;
-    box-shadow: 0 0 2px var(--white);
+    box-shadow: 0 0 .8rem rgba(249, 249, 255, 0.5);
     transition: all 0.25s linear;
     -webkit-transition: all 0.25s linear;
     -moz-transition: all 0.25s linear;
@@ -328,7 +328,7 @@ a {
     -o-border-radius: 12px;
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 0 0 1rem rgba(249, 249, 255, 0.5);
+    box-shadow: 0 0 1rem rgba(132, 120, 248 , 0.5);
 }
 .about__skills--container figure {
     display: flex;
@@ -360,7 +360,7 @@ a {
     -moz-border-radius: 1.2rem;
     -ms-border-radius: 1.2rem;
     -o-border-radius: 1.2rem;
-    box-shadow: 0 0 1rem rgba(249, 249, 255, 0.5);
+    box-shadow: 0 .3rem 1rem rgba(39, 51, 110, 0.5);
 }
 .portfolio__container--item img {
     width: 100%;
@@ -372,8 +372,7 @@ a {
     -ms-border-radius: 1.2rem;
     -o-border-radius: 1.2rem;
 }
-.portfolio__container--item div {
-    position: absolute;
+.portfolio__container--item figcaption {
     background-color: rgba(0, 0, 0, 0.5);
     
 }
