@@ -195,9 +195,15 @@ a {
 }
 
 .presentation__title {
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-top: 2.4rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 2.4rem;
+        /*animation*/white-space: nowrap;
+        border-right: 2px solid;
+        width: 17ch;
+        animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+        -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+        overflow: hidden;
 }
 
 .presentation__phrase {
@@ -429,5 +435,16 @@ a {
         -moz-transform: translate(0, -0.8rem);
         -ms-transform: translate(0, -0.8rem);
         -o-transform: translate(0, -0.8rem);
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
     }
 }
