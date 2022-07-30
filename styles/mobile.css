@@ -429,6 +429,45 @@ a {
     box-shadow: 0 0.3rem 1rem rgba(132, 120, 248, 0.5);
 }
 
+/* ------------------------- CONTACT ------------------- */
+.contact__phrase {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1.4rem;
+}
+.contact__form--label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+.contact__form--label span {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.contact__form--label input, .contact__form--label textarea {
+    margin-top: 0.4rem;
+    padding: 1.4rem;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: var(--white);
+    outline: none;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+.contact__form--label input::placeholder, .contact__form--label textarea {
+    color: #959595;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.form__label--message textarea {
+    font-family: 'Rubik', sans-serif;
+    height: 8rem;
+    padding-top: 0.8rem;
+}
 
 /* ------------------------- ANIMATIONS ------------- */
 @keyframes down {

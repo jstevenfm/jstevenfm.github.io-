@@ -201,7 +201,24 @@
         <section id="contact" class="contact sections">
             <h2 class="contact__title titles-section">Get In Touch</h2>
             <p class="contact__phrase">Let's talk about everything</p>
-            
+            <form class="contact__form">
+                <label for="name" class="contact__form--label">
+                    <span>Name</span>
+                    <input type="text" id="name" placeholder="Pepito Perez" required>
+                </label>
+                <label for="email" class="contact__form--label">
+                    <span>Email</span>
+                    <input type="email" id="email" placeholder="example@example.com" required>
+                </label>
+                <label for="subject" class="contact__form--label">
+                    <span>Subject</span>
+                    <input type="text" id="subject" placeholder="Work with you" required>
+                </label>
+                <label for="message" class="contact__form--label form__label--message">
+                    <span>Message</span>
+                    <textarea id="message" placeholder="Message..." required></textarea>
+                </label>
+            </form>
         </section>
     </main>
 </body>
