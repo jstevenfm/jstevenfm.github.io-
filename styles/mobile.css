@@ -438,7 +438,8 @@ a {
     margin-top: 1.4rem;
 }
 .contact__form {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column;    
 }
 .contact__form--label {
     display: flex;
@@ -452,8 +453,8 @@ a {
 .contact__form--label input, .contact__form--label textarea {
     margin-top: 0.4rem;
     padding: 1.4rem;
-    width: 100%;
-    max-width: 24.8rem;
+    min-width: 24.8rem;
+    max-width: 49.6rem;
     height: 3rem;
     border: none;
     background-color: var(--white);
