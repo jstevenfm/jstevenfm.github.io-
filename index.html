@@ -86,7 +86,7 @@
             <img class="about__img" src="./assets/icons/picture-profile.svg" alt="Profile picture">
             <p class="about__description">Hi! I'm Jeisson, Colombian, self-taught,  tech lover and web developer in
                 process.</p>
-            <button class="about__button">
+            <button class="about__button button">
                 <img class="about__button--icon" src="./assets/icons/CTA-IdentificationBadge.svg"
                     alt="Curriculum Vitae">
                 <p class="about__button--txt">Download CV</p>
@@ -201,7 +201,7 @@
         <section id="contact" class="contact sections">
             <h2 class="contact__title titles-section">Get In Touch</h2>
             <p class="contact__phrase">Let's talk about everything</p>
-            <form class="contact__form">
+            <form class="contact__form containers-sections">
                 <label for="name" class="contact__form--label">
                     <span>Name</span>
                     <input type="text" id="name" placeholder="Pepito Perez" required>
@@ -218,6 +218,7 @@
                     <span>Message</span>
                     <textarea id="message" placeholder="Message..." required></textarea>
                 </label>
+                <button type="submit" class="contact__form--button button">Send Message</button>
             </form>
         </section>
     </main>
