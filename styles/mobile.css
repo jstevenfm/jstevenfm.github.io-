@@ -34,6 +34,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 3.6rem;
 }
 
 .containers-sections__item {
