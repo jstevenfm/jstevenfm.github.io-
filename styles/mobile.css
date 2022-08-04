@@ -439,7 +439,8 @@ a {
 }
 .contact__form {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-content: center;
 }
 .contact__form--label {
     display: flex;
