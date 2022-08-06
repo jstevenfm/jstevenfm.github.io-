@@ -405,6 +405,8 @@ a {
     font-size: 1.4rem;
     font-weight: 300;
     margin-top: 2.8rem;
+    max-width: 24.8rem;
+    text-align: justify;
 }
 
 

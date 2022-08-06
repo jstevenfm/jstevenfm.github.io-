@@ -1,0 +1,26 @@
+.about {
+    height: 43rem;
+    position: relative;
+}
+.about__img {
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 9.2rem;
+    left: 10.4rem;
+}
+.about__description {
+    position: absolute;
+    top: 10.8rem;
+    left: 35.6rem;
+}
+.about__button {
+    position: absolute;
+    top: 21.2rem;
+    left: 42.4rem;
+}
+.about__skills {
+    position: absolute;
+    top: 28rem;
+    left: 25.2rem;
+}
