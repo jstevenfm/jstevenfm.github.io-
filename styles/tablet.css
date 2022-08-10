@@ -7,24 +7,36 @@
     height: 17rem;
     position: absolute;
     top: 9.2rem;
-    /* left: 10.4rem; */
     left: 15%;
 }
 .about__description {
     width: 24.8rem;
     position: absolute;
     top: 10.8rem;
-    /* right: 13.6rem; */
     right: 16%;
 }
 .about__button {
     position: absolute;
     top: 21.2rem;
-    /* right: 20.8rem; */
     right: 25%;
 }
 .about__skills {
     position: absolute;
     top: 28rem;
     left: calc(50% - 12.4rem);
+}
+.contact {
+    height: 41.2rem;
+    position: relative;
+}
+.contact__form {
+    width: 24.8rem;
+    position: absolute;
+    top: 2.4rem;
+    right: 15%;
+}
+.contact__links {
+    position: absolute;
+    top: 12.4rem;
+    left: 5%;
 }
