@@ -59,6 +59,7 @@ a {
 
 .containers-sections__item:hover {
     color: var(--cta);
+    box-shadow: 0 0 .5rem var(--cta);
 }
 
 .containers-sections__item img,
