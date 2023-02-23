@@ -147,7 +147,6 @@ a {
 
 .navbar {
     background-color: var(--blue);
-    /* background-image: linear-gradient(160deg, #27336e 0%, #8478f8 100%); */
     padding: 1.6rem;
     box-shadow: 0 0 .5rem rgba(249, 249, 255, 0.5);
     position: sticky;
