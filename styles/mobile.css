@@ -57,6 +57,10 @@ a {
     overflow: hidden;
 }
 
+.containers-sections__item:hover {
+    color: var(--cta);
+}
+
 .containers-sections__item img,
 .containers-sections__item figcaption {
     grid-area: stack;
