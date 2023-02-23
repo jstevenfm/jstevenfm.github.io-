@@ -165,6 +165,9 @@ a {
     display: flex;
     transition: all 0.25s linear;
 }
+.navbar__name:hover {
+    color: var(--cta);
+}
 
 .navbar__name--logo {
     width: 3rem;
@@ -292,7 +295,6 @@ a {
 }
 .navbar__menu--list-item a:hover {
     color: var(--cta);
-    border-bottom: 1px solid var(--cta);
 }
 
 #menu_on-off:checked~.navbar__menu {
