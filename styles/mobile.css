@@ -290,6 +290,10 @@ a {
 .navbar__menu--list-item {
     padding: 1.4rem 0;
 }
+.navbar__menu--list-item a:hover {
+    color: var(--cta);
+    border-bottom: 1px solid var(--cta);
+}
 
 #menu_on-off:checked~.navbar__menu {
     right: 0;
