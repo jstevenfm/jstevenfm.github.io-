@@ -112,7 +112,11 @@ a {
     border: none;
     cursor: pointer;
 }
-
+.button:hover {
+    width: 12rem;
+    height: 4rem;
+    box-shadow: .1rem .1rem .5rem var(--cta);
+}
 .block-container {
     width: 24.8rem;
     height: 5rem;
