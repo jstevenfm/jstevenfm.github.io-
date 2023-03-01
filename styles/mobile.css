@@ -59,7 +59,12 @@ a {
 
 .containers-sections__item:hover {
     color: var(--cta);
-    box-shadow: 0 0 .5rem var(--cta);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--cta);
 }
 
 .containers-sections__item img,
@@ -121,6 +126,11 @@ a {
     width: 12rem;
     height: 4rem;
     box-shadow: .1rem .1rem .5rem var(--cta);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 }
 .block-container {
     width: 24.8rem;
@@ -156,7 +166,7 @@ a {
 
 .navbar {
     background-color: var(--blue);
-    padding: 1.6rem;
+    /* padding: 1.6rem; */
     box-shadow: 0 0 .5rem rgba(249, 249, 255, 0.5);
     position: sticky;
     top: 0;
@@ -173,6 +183,12 @@ a {
 .navbar__name {
     display: flex;
     transition: all 0.25s linear;
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
 }
 .navbar__name:hover {
     color: var(--cta);
@@ -301,6 +317,7 @@ a {
 
 .navbar__menu--list-item {
     padding: 1.4rem 0;
+    margin: 0.4rem 1.4rem;
 }
 .navbar__menu--list-item a:hover {
     color: var(--cta);
@@ -481,6 +498,14 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 1.4rem;
+}
+.contact__form--label input:hover, .contact__form--label textarea:hover, .contact__form--label input:focus, .contact__form--label textarea:focus {
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--cta);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 }
 .contact__form--label span {
     font-size: 1.2rem;
