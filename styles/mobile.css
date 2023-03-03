@@ -97,7 +97,7 @@ a {
     padding-bottom: 0.4rem;
 }
 
-.containers-sections__item>figcaption>img {
+.containers-sections__item>figcaption>svg {
     width: 2rem;
     height: 2rem;
 }
@@ -367,10 +367,6 @@ a {
     margin-top: 2.4rem;
 }
 
-.presentation__rrss--item img {
-    width: 2.4rem;
-    height: 2.4rem;
-}
 
 .scroll {
     margin: 2.6rem 0;
