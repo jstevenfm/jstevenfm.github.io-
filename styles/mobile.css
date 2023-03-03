@@ -220,6 +220,7 @@ figcaption {
 .navbar__name:hover, .navbar__name:hover > svg > path {
     color: var(--cta);
     fill: var(--cta);
+    scale: 1.1;
 }
 
 .navbar__name--logo {
@@ -346,8 +347,14 @@ figcaption {
     padding: 1.4rem 0;
     margin: 0.4rem 1.4rem;
 }
-.navbar__menu--list-item a:hover {
+.navbar__menu--list-item:hover, .navbar__menu--list-item:hover > a {
     color: var(--cta);
+    scale: 1.1;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 }
 
 #menu_on-off:checked~.navbar__menu {
@@ -396,6 +403,12 @@ figcaption {
 
 .presentation__rrss svg:hover > path, .contact__links svg:hover > path  {
     stroke: var(--cta);
+    scale: 1.2;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 }
 
 .scroll {
@@ -575,6 +588,12 @@ figcaption {
 .contact__links > a:hover > figure > figcaption, .contact__links > a:hover > figure > svg > path {
     color: var(--cta);
     stroke: var(--cta);
+    scale: 1.2;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 }
 
 /* ------------------------- FOOTER ------------------- */
