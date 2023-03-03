@@ -387,6 +387,7 @@ a {
 }
 
 .scroll__container {
+    max-width: 2.4rem;
     margin-top: 0.6rem;
     padding: 1.2rem 0.6rem;
     border: 0.2rem solid var(--white);
