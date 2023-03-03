@@ -57,7 +57,8 @@ a {
     overflow: hidden;
 }
 
-.containers-sections__item:hover {
+.containers-sections__item:hover, .containers-sections__item:focus {
+    scale: 1.1;
     color: var(--cta);
     transition: all 0.25s linear;
     -webkit-transition: all 0.25s linear;
@@ -123,14 +124,16 @@ a {
     cursor: pointer;
 }
 .button:hover {
-    width: 12rem;
-    height: 4rem;
-    box-shadow: .1rem .1rem .5rem var(--cta);
+    scale: 1.1;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--purple);
     transition: all 0.25s linear;
     -webkit-transition: all 0.25s linear;
     -moz-transition: all 0.25s linear;
     -ms-transition: all 0.25s linear;
     -o-transition: all 0.25s linear;
+}
+.contact__form--button:hover {
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--blue);
 }
 .block-container {
     width: 24.8rem;
@@ -190,8 +193,9 @@ a {
     -ms-border-radius: 1.2rem;
     -o-border-radius: 1.2rem;
 }
-.navbar__name:hover {
+.navbar__name:hover, .navbar__name:hover > svg > path {
     color: var(--cta);
+    fill: var(--cta);
 }
 
 .navbar__name--logo {
@@ -367,6 +371,9 @@ a {
     margin-top: 2.4rem;
 }
 
+.presentation__rrss svg:hover > path, .contact__links svg:hover > path  {
+    stroke: var(--cta);
+}
 
 .scroll {
     margin: 2.6rem 0;
@@ -496,6 +503,7 @@ a {
     margin-top: 1.4rem;
 }
 .contact__form--label input:hover, .contact__form--label textarea:hover, .contact__form--label input:focus, .contact__form--label textarea:focus {
+    scale: 1.1;
     box-shadow: 0.5rem 0.5rem 0.5rem var(--cta);
     transition: all 0.25s linear;
     -webkit-transition: all 0.25s linear;
@@ -539,6 +547,10 @@ a {
 .contact__links {
     background-color: var(--blue);
     box-shadow: 0 .3rem 1rem rgba(39, 51, 110, 0.5);
+}
+.contact__links > a:hover > figure > figcaption, .contact__links > a:hover > figure > svg > path {
+    color: var(--cta);
+    stroke: var(--cta);
 }
 
 /* ------------------------- FOOTER ------------------- */
