@@ -15,6 +15,9 @@ main {
 .intro {
     background-image: none;
 }
+.navbar {
+    margin-left: calc(50% - 37rem);
+}
 .navbar__head {
     justify-content: space-between;
 }
@@ -37,7 +40,8 @@ main {
     flex-direction: row;
 }
 .navbar__menu--list-item {
-    margin: 0.4rem 1.4rem;
+    margin: 1.2rem;
+    padding: 1.6rem 0;
 }
 .about {
     height: 43rem;

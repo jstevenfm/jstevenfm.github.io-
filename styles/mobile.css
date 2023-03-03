@@ -174,12 +174,18 @@ figcaption {
 }
 
 .navbar {
-    background-color: var(--blue);
+    width: 100vw;
+    max-width: 74rem;
+    background-color: rgba(39, 51, 110, 0.6);
     padding: 1.6rem;
-    box-shadow: 0 0 .5rem rgba(249, 249, 255, 0.5);
     position: sticky;
-    top: 0;
+    top: 1.2rem;
     z-index: 2;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
 }
 
 .navbar__head {
@@ -304,11 +310,11 @@ figcaption {
 }
 
 .navbar__menu {
-    background-color: var(--blue);
+    background-color: rgba(39, 51, 110, 0.8);
     width: 26rem;
     padding: 2.8rem 3.6rem;
     position: fixed;
-    top: 0;
+    top: 1.2rem;
     right: -26rem;
     font-size: 1.8rem;
     font-weight: 400;
@@ -317,7 +323,6 @@ figcaption {
     -moz-border-radius: 1.2rem;
     -ms-border-radius: 1.2rem;
     -o-border-radius: 1.2rem;
-    box-shadow: 0 0 .8rem rgba(249, 249, 255, 0.5);
     transition: all 0.25s linear;
     -webkit-transition: all 0.25s linear;
     -moz-transition: all 0.25s linear;
