@@ -26,6 +26,10 @@ a {
     color: var(--white);
 }
 
+figcaption {
+    font-size: 12px;
+}
+
 /* ------------------------- GLOBALS ------------- */
 .sections {
     background-color: var(--purple);
@@ -46,7 +50,7 @@ a {
 
 .containers-sections__item {
     width: 24.8rem;
-    height: 14.8rem;
+    height: 17rem;
     border-radius: 1.2rem;
     -webkit-border-radius: 1.2rem;
     -moz-border-radius: 1.2rem;
