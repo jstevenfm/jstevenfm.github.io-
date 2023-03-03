@@ -16,9 +16,7 @@ main {
     background-image: none;
 }
 .navbar__head {
-    width: 84rem;
     justify-content: space-between;
-    margin-left: calc(50% - 42rem);
 }
 .navbar__toggle-button {
     width: 0;
