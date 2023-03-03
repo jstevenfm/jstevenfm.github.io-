@@ -169,7 +169,7 @@ a {
 
 .navbar {
     background-color: var(--blue);
-    /* padding: 1.6rem; */
+    padding: 1.6rem;
     box-shadow: 0 0 .5rem rgba(249, 249, 255, 0.5);
     position: sticky;
     top: 0;
@@ -186,7 +186,7 @@ a {
 .navbar__name {
     display: flex;
     transition: all 0.25s linear;
-    padding: 1.6rem;
+    /* padding: 1.6rem; */
     border-radius: 1.2rem;
     -webkit-border-radius: 1.2rem;
     -moz-border-radius: 1.2rem;
