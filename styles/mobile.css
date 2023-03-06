@@ -414,7 +414,17 @@ figcaption {
 .scroll {
     margin: 2.6rem 0;
 }
+.scroll:hover, .scroll:hover > .scroll__container, .scroll:hover > .scroll__container .scroll__container--point {
+    color: var(--cta);
+    border-color: var(--cta);
+    scale: 1.1;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
 
+}
 .scroll__title {
     font-size: 1.2rem;
     font-weight: 300;
